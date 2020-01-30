@@ -1,0 +1,33 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/ReinisPastars/RTR108
+    4  nano git-upload
+    5  chmod 744 git-upload
+    6  ls
+    7  cd RTR108/
+    8  lsls
+    9  ls
+   10  nano README.md 
+   11  python
+   12  ipython
+   13  python2
+   14  nano python_test.py
+   15  python python_test.py
+   16  nano python_test.py
+   17* python python_test.py 
+   18  python --version
+   19  cp python_test.py python_test_auto_exe.py 
+   20  nano python_test_auto_exe.py
+   21  ls -l
+   22  ls -l /usr/bin/python
+   23  chmod 744 python_test_auto_exe.py 
+   24  mv python_test_auto_exe.py python_test_auto_exe
+   25  ls -l
+   26  ./python_test_auto_exe 
+   27  idle &
+   28  ls -l
+   29  nano diary_20200130.py 
+   30  ls -l
+   31  python -m http.server 8000python -m http.server 8000
+   32  python -m http.server 8000
+   33  history > history_20200130.txt
